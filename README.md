@@ -23,16 +23,3 @@ The project focuses on core game logic, object-oriented programming, and clean c
 - (Optional) Pygame / Tkinter for GUI  
 - Object-Oriented Programming (OOP)
 
----
-
-## 📂 Project Structure
-
-chess-game/
-│
-├── main.py # Main game loop
-├── board.py # Chess board logic
-├── pieces.py # Chess piece classes
-├── game.py # Game rules and mechanics
-├── utils.py # Helper functions
-└── README.md
-
