@@ -36,30 +36,3 @@ chess-game/
 ├── utils.py # Helper functions
 └── README.md
 
-yaml
-Copy code
-
-*(Structure may vary depending on your implementation)*
-
----
-
-## ▶️ How to Run the Game
-
-1. Make sure Python is installed:
-   ```bash
-   python --version
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/python-chess-game.git
-Navigate to the project folder:
-
-bash
-Copy code
-cd python-chess-game
-Run the game:
-
-bash
-Copy code
-python main.py
