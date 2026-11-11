@@ -1,46 +1,40 @@
-# ♟️ Chess Game
+# Chess
 
-An object-oriented Python chess game with legal move validation, check and checkmate detection, and turn-based local multiplayer.
+Two-player chess game for the desktop, built with Python and Pygame. Click a piece to see its legal destination squares, then click a square to move.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pygame](https://img.shields.io/badge/Pygame-2C8A2C?style=flat-square)
 
-## ✨ Features
+## Features
 
-- ♟️ Full legal move validation for all piece types
-- 👑 Check and checkmate detection
-- 🔄 Turn-based local two-player gameplay
-- 🏗️ Clean OOP architecture — each piece is its own class
-- 🧩 Modular, readable game logic
+- 8×8 board with piece images
+- Local two-player, turn-based play (white moves first)
+- Movement rules for each piece type, with captures
+- Highlighted destination squares for the selected piece
 
-## 🚀 Getting Started
+## Not implemented yet
 
-### Prerequisites
+- Check and checkmate detection
+- Castling, en passant and pawn promotion
 
-- Python 3.8+
-- Pygame (for graphical mode)
+## Getting Started
 
-```bash
-pip install pygame
-```
-
-### Run the Game
+**Requirements:** Python 3 and Pygame.
 
 ```bash
 git clone https://github.com/AbanobGeorgeSamir/ChessGame.git
 cd ChessGame
-python main.py
+pip install pygame
+python Chess.py
 ```
 
-## 🏗️ Architecture
+## Project Structure
 
-```
-ChessGame/
-├── main.py          # Entry point
-├── board.py         # Board state management
-├── pieces/          # Individual piece classes (King, Queen, Rook, ...)
-└── game.py          # Game loop, turn management, win detection
+```text
+Chess.py    Game loop, board state, move generation and drawing
+images/     Piece sprites
 ```
 
-## 👤 Author
+## Author
 
-**Abanoub George Samir** — [LinkedIn](https://www.linkedin.com/in/abanob-george-samir) · [GitHub](https://github.com/AbanobGeorgeSamir)
+**Abanoub George Samir** · Junior Full-Stack Developer · [Portfolio](https://devabanobgeorge.vercel.app) · [LinkedIn](https://www.linkedin.com/in/abanob-george-samir) · [GitHub](https://github.com/AbanobGeorgeSamir)
